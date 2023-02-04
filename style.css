@@ -1,5 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: 'Merriweather', serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+background-color: #f9fafc;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  
+
+}
+
+.navbar_brand {
+width: 100px;
+}
+.navbar_logo {
+  width: 100%;
+}
+
+.orderfood {
+  background-image: linear-gradient(
+    to right,
+    #ff512f 0%,
+    #dd2476 51%,
+    #ff512f 100%
+    
+  );
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 600;
+
+}
+
+
+
+
+/* boundary */
+
+
+@media (min-width:768px ){
+  .navbar {
+    justify-content: space-between;
+    padding: 10px 20px;
+
+  }
+}
+  
+@media (min-width: 1024px){
+   
+
+  .navbar_brand {
+    width: 160px;
+  }
+
+ .orderfood {
+
+  padding: 15x;
+ }
+
+
+  }
+
+
+
+
+
+
+
+
 
