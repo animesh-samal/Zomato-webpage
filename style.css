@@ -65,14 +65,16 @@ width: 100px;
 
 .hero_image {
   width: 100%;
+  border-radius: 7px;
   
 }
 .container {
-  padding: 12px;
+  padding: 15px;
   margin: 0 auto;
 }
 
 .hero_text {
+  padding-top: 5.7rem;
   margin: 85px 0 10px 0 ;
   font-size: 20px;
   line-height: 2.25rem;
@@ -121,7 +123,7 @@ width: 100px;
 }
 
     
-  }
+  
   .hero_text {
     margin: 5px 0 10px 0 ;
     font-size: 20px;
@@ -129,6 +131,10 @@ width: 100px;
     font-weight: 900;
     color: #1d3557;
   }
+  
+  
+
+}
   
   
 
@@ -140,12 +146,24 @@ width: 100px;
     
   }
   .navbar_brand {
-    width: 160px;
+    width: 100px;
+    padding-left: 30px;
   }
 
+  .navbar_nav_items {
+    padding-right: 30px ;
+    
+  }
  .orderfood {
 
-  padding: 15x;
+  padding-right: 155x;
+  border-radius: 6px;
+  height: 50px;
+  width: 150px;
+  text-size-adjust: 16px
+  ;
+  
+  
  }
 
  .hero_image_container {
@@ -174,8 +192,59 @@ width: 100px;
 
 
 
+}
+
+.pre_exploremenu {
+  padding-top: 2rem;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  
+}
+.foodfailsvideo_description {
+  text-align: center;
+  width: 85%;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 20px;
+  
+
+}
+.foodfails_video {
+  width: 75%;
+  
+
+  
+}
+
+.explore_menu_text {
+  padding: 30px 10px;
+  text-align: center;
+}
+.food_card_image_container {
+  
+  width: 100%;
+}
+
+.food_image {
+  width: 100%;
+  border-radius: 6px;
+  
+  
+}
+
+.food_card {
+  
+  padding-top: 1rem;
+}
 
 
 
+.food_card_description {
+  margin: 0;
+  padding: 12px 10px;
+  background-color: #FFFBF5;
 
 }
