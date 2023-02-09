@@ -69,6 +69,7 @@ width: 100px;
 }
 .container {
   padding: 12px;
+  margin: 0 auto;
 }
 
 .hero_text {
@@ -134,7 +135,10 @@ width: 100px;
   
 @media (min-width: 1024px){
    
-
+  .container {
+    max-width: 75%;
+    
+  }
   .navbar_brand {
     width: 160px;
   }
@@ -144,8 +148,27 @@ width: 100px;
   padding: 15x;
  }
 
+ .hero_image_container {
+  width: 80%;
+  height: 380px;
+  /* background-image: url(assets/heroShape.svg); */
+  margin-top: 20px;
+  
+  
+  
+}
 
-  }
+.hero_image {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 25%);
+}
+
+ .hero_text {
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 3.2rem;
+ } 
 
 
 
@@ -155,3 +178,4 @@ width: 100px;
 
 
 
+}
