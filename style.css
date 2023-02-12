@@ -83,6 +83,67 @@ width: 100px;
 }
 
 
+.pre_exploremenu {
+  padding-top: 2rem;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  
+}
+.foodfailsvideo_description {
+  text-align: center;
+  width: 85%;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 20px;
+  
+
+}
+.foodfails_video {
+  width: 75%;
+  
+
+  
+}
+
+.explore_menu_text {
+  padding: 30px 10px;
+  text-align: center;
+  font-weight: 800;
+  color: #1d3557;
+}
+.food_card_image_container {
+  
+  width: 100%;
+}
+
+.food_image {
+  max-width: 100%;
+  border-radius: 6px;
+  
+  
+  
+}
+
+.food_card {
+  
+  padding-top: 1rem;
+  /* background-color: #F9F9F9; */
+
+}
+
+
+
+.food_card_description {
+  
+  padding: 15px;
+  /* background-color: #FFFBF5; */
+  
+
+}
+
 
 /* boundary */
 
@@ -131,7 +192,15 @@ width: 100px;
     font-weight: 900;
     color: #1d3557;
   }
+
+ 
   
+  .explore_menu_lists {
+    margin-top: 45px;
+      display: flex;
+      gap: 15px;
+      padding: 0 30px;
+    }
   
 
 }
@@ -194,57 +263,5 @@ width: 100px;
 
 }
 
-.pre_exploremenu {
-  padding-top: 2rem;
-  width: 100%;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column; 
-  
-}
-.foodfailsvideo_description {
-  text-align: center;
-  width: 85%;
-  font-family: 'Merriweather', sans-serif;
-  font-size: 20px;
-  
+/* media query ends */
 
-}
-.foodfails_video {
-  width: 75%;
-  
-
-  
-}
-
-.explore_menu_text {
-  padding: 30px 10px;
-  text-align: center;
-}
-.food_card_image_container {
-  
-  width: 100%;
-}
-
-.food_image {
-  width: 100%;
-  border-radius: 6px;
-  
-  
-}
-
-.food_card {
-  
-  padding-top: 1rem;
-}
-
-
-
-.food_card_description {
-  margin: 0;
-  padding: 12px 10px;
-  background-color: #FFFBF5;
-
-}
